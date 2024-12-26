@@ -1,0 +1,10 @@
+from board import Board
+
+b1 = Board(3)
+b1.place_piece(1, 1, 1)
+b1.place_piece(1, 2, 1)
+b1.place_piece(0, 1, 1)
+
+array = [[1, 1], [1, None]]
+
+print(array in b1)
